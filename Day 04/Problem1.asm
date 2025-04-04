@@ -96,7 +96,7 @@ start:
 	int 21h
 	
 	mov ah,00 ; define rem=0
-	sub al,n1
+	mov al,n1
 	div n2
 	mov rem,ah
 	
